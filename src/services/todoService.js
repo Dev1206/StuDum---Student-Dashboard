@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api/todos';
+const API_URL = 'https://studum-student-dashboard.onrender.com/api/todos';
 
 // Create axios instance with default config
 const todoApi = axios.create({

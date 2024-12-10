@@ -17,7 +17,7 @@ interface Playlist {
   songs: Song[];
 }
 
-const API_URL = '/api/music';  // Adjust this based on your backend URL
+const API_URL = 'https://studum-student-dashboard.onrender.com/api';
 
 export const getAllSongs = async (): Promise<Song[]> => {
   try {

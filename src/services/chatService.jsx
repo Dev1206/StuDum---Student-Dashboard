@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://studum-student-dashboard.onrender.com/api';
 
 export const chatService = {
   // Get all chats for a user
